@@ -1,0 +1,32 @@
+.H1_begin {
+    background-color: green;
+    text-align: center;
+    width: 40%;
+    padding: 1px 1px;
+    margin: 20px auto;
+    color: white;
+
+
+}
+
+.p_begin {
+    color: blue;
+    font-size: 30px;
+
+}
+
+.p_begin2 {
+    color: blue;
+    font-size: 30px;
+
+}
+
+.p_begin3 {
+    background-color: blanchedalmond;
+    width: 100%;
+  width: 85%;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+
+}
