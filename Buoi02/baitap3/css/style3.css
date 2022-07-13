@@ -1,0 +1,37 @@
+.Backgrou {
+    background-color: greenyellow;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    text-align: center;
+
+
+}
+
+
+.fa-facebook
+               { border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+
+
+}
+
+
+.fb-left {
+    color: blue;
+    background-color: #fff;
+    
+
+}
+
+.fb-right {
+    background-color: blue;
+    color: #fff;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.box_backgr12 {
+    background-color:blueviolet ;
+    height: 250px;
+    width: 630px;
+    margin: 100px auto;
+}
+
+.fontsizevippro {
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 100px 125px;
+    color: white;
+    font-weight: bold;
+}
+
