@@ -2,34 +2,47 @@
     background-color: greenyellow;
     width: 600px;
     height: 100px;
-    margin: 0 auto;
     line-height: 100px;
-    text-align: center;
-
-
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 
-.fa-facebook
-               { border-radius: 50%;
-                width: 40px;
-                height: 40px;
-                line-height: 40px;
 
+.background{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-right: 3px;
+}
 
+.background1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    margin-left: 3px;
 }
 
 
 .fb-left {
     color: blue;
-    background-color: #fff;
-    
+    position: absolute;
+    left: 40%;
+    top: 25%;
 
 }
 
 .fb-right {
-    background-color: blue;
     color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 25%;
 }
 
 
