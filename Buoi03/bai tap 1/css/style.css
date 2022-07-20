@@ -1,0 +1,24 @@
+.background { background-color: rgb(56, 38, 14);
+width: 800px;
+height: 400px;
+margin: 0 auto;
+text-align: center;
+}
+
+
+.boxblack_highc { background-color: black;
+    width: 100px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+
+}
+.boxblack_vuong{
+    width: 100px;
+    background-color: blue;
+height: 100px;
+display:inline-block;
+vertical-align: middle;
+}
