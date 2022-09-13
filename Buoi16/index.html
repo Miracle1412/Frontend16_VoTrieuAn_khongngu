@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Votrieuankhongngu</title>
+
+</head>
+
+<body ng-app="myapp" ng-controller="gold">
+    <!-- <div class="container_barin">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1>Tên</h1>
+                    <p>Vàng acf</p>
+                </div>
+                <div class="col-4">
+                    <h1>Gía</h1>
+                    <p>500.000.000tr</p>
+                </div>
+                <div class="col-4">
+                    <h1>Gía bán</h1>
+                    1.000.000.000
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Tên</th>
+            <th>Gía Vàng</th>
+            <th>Gía bán</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in items">
+            <td>{{item.type}}</td>
+            <td>{{item.buy}}</td>
+            <td>{{item.sell}}</td>
+          </tr>
+          <!-- <tr>
+            <td>xxx</td>
+            <td>xxx</td>
+            <td>xxx</td>
+          </tr> -->
+          
+        </tbody>
+      </table>
+      <script src="./main.js"></script>
+      <script src="./js/main.js"></script>
+</body>
+
+</html>

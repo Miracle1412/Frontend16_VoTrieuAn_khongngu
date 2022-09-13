@@ -80,3 +80,9 @@ else if (agent.search('Firefox') != -1) {
 //     }
 //  }
 //  printbidep(bidep)
+
+var avc = document.getElementById('')
+let search = 'Frontend'
+let str = avc.innerHTML
+var text = str.replace(/frontend/gi.`<span style='background-color: green; color:white'>${search}</span>`)
+Text

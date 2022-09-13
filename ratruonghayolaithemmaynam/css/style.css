@@ -1,0 +1,633 @@
+* {
+  box-sizing: border-box;
+}
+
+.body_main_background {}
+
+.header_Img_gameofthrones {
+  background-image: url("https://images6.alphacoders.com/914/914207.png");
+  width: 100%;
+  height: 30%;
+
+
+
+  background-size: cover;
+
+
+
+}
+
+.header_Title {
+  padding-top: 30px;
+
+
+}
+
+.header_Titleleft {
+  display: flex;
+}
+
+
+.header_Titleleft_navtext {
+  color: white;
+  padding-left: 40px;
+  font-size: large;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.header_Titleleft_navtext:hover {
+  text-decoration: none;
+  color: yellow;
+  scale: (1.5);
+}
+
+.fa-lightbulb-o {
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.header_img_hover_effect {
+  padding: 461px 0 0 0;
+  transition: transform 3s;
+
+}
+
+.header_img_hover_effectcenter {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.header_img_hover_effect:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0px 0px 8px rgb(252, 249, 249));
+  margin-bottom: 20px;
+
+}
+
+/* .fa-star {
+  color: red;
+  width: 40px;
+  height: 400px;
+  font-size: inherit;
+} */
+
+.navbar_menu {
+  background-color: rgb(65, 64, 62);
+
+}
+
+.navbar_menu_icon_h1 {
+  padding: 20px 0 0 20px;
+  display: flex;
+}
+
+.navbar_menu_h1 {
+  font-size: 40px;
+  color: red;
+}
+
+
+/* li xuong body */
+
+.book_avatar {
+  height: 220px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  position: relative;
+}
+
+.book_avatar_img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.top-notice {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  font-size: 0;
+}
+
+.time-ago {
+  border-radius: 5px;
+  background-color: #56ccf2;
+  margin-right: 5px;
+}
+
+.lili {
+  width: 180px;
+  float: left;
+  margin: 10px;
+  list-style: none;
+}
+
+.body_main_background {
+  background-color: rgb(245, 239, 239);
+}
+
+.fa-bookmark {
+  color: white;
+}
+
+.fa-eye {
+  color: white;
+
+}
+
+.nav {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 5px;
+
+}
+
+/* nav left */
+
+.nav-left {}
+
+.nav-left-img {
+  padding-bottom: 5px;
+}
+
+.nav-left-img1 {
+  background-image: url("https://i.pinimg.com/564x/4d/3e/8c/4d3e8ce45304006fb710f5ab86711235.jpg");
+  width: 297px;
+  height: 189px;
+  padding-bottom: 4px;
+  position: relative;
+  border: 2px solid;
+  
+
+}
+.nav-left-img1:hover {
+  scale: 1.1;
+  transition: 1.2s;
+  padding-right: 10px;
+}
+.nav-left-img1:hover .nav-left-img1-pbottom {
+  padding-top: 60px;
+  transition: 1.5s;
+  color: black;
+}
+.nav-left-img1:hover .nav-left-img1-ptop {
+  padding-top: 40px;
+  transition: 1.5s;
+  color: red;
+}
+
+.nav-left-img1-ptop {
+  color: rgb(252, 248, 248);
+  font-size: 16px;
+  font-weight: bold;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  
+
+}
+
+.nav-left-img1-pbottom {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+padding-left: 20px;
+padding-top: 10px;
+  position: absolute;
+
+}
+
+.nav-left-img2 {
+  background-image: url("https://anhdep123.com/wp-content/uploads/2020/05/%E1%BA%A3nh-pokemon-cute.jpg");
+  width: 297px;
+  height: 189px;
+  padding-bottom: 4px;
+  position: relative;
+  border: 2px solid;
+
+
+
+}
+
+.nav-left-img2:hover {
+  scale: 1.1;
+  transition: 1.2s;
+  padding-right: 10px;
+}
+.nav-left-img2:hover .nav-left-img2-pbottom {
+  padding-top: 60px;
+  transition: 1.5s;
+  color: black;
+}
+.nav-left-img2:hover .nav-left-img2-ptop {
+  padding-top: 40px;
+  transition: 1.5s;
+  color: red;
+}
+
+.nav-left-img2-ptop {
+  color: rgb(252, 248, 248);
+  font-size: 16px;
+  font-weight: bold;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+ 
+  
+
+}
+
+.nav-left-img2-pbottom {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+padding-left: 20px;
+padding-top: 10px;
+  position: absolute;
+
+}
+
+
+
+
+
+
+
+/* nav center */
+
+.nav-center {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-center-img:hover {
+  scale: 1.1;
+  transition: 1.9s;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 80%;
+  box-shadow: rgb(242, 240, 237)
+
+
+}
+
+.nav-center-img:hover .nav-center-img-ptop {
+  margin-top: 170px;
+  scale: 1.5;
+  transition: 2s;
+  
+  
+
+}
+
+
+.nav-center-img {
+  background-image: url("https://i.truyenvua.xyz/slider/583x386/slider_1559211185.jpg?gf=hdfgdfg&mobile=2");
+  width: 600px;
+  height: 380px;
+  position: relative;
+  border: 2px solid;
+}
+
+
+
+.nav-center-img-ptop {
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+ 
+}
+
+.nav-center-hhh {
+  font-weight: bold;
+  color: rgb(108, 255, 4);
+  width: 20%;
+  position: absolute;
+  border-radius: 20px;
+  left: 30px;
+  top: 20px;
+
+}
+
+
+.nav-center-bottom {
+  position: absolute;
+  color: white;
+  bottom: 2px;
+
+}
+
+
+
+.nav-center-img-pbottom1,
+.nav-center-img-pbottom2 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+
+
+}
+
+.nav-center-img:hover .nav-center-img-pbottom1 {
+  padding-bottom: 135px;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  transition: 1s;
+
+  
+
+}
+.nav-center-img:hover .nav-center-img-pbottom2 {
+padding-bottom: 110px;
+transition: 2s;
+
+}
+
+
+.nav-center-img:hover {
+  scale: (1.5);
+
+} 
+
+
+
+
+/* nav right */
+.nav-right {}
+
+.nav-right-img {}
+
+.nav-right-img1 {
+  background-image: url("https://i.truyenvua.xyz/slider/290x191/slider_1559213484.jpg?gf=hdfgdfg&mobile=2");
+  width: 297px;
+  height: 189px;
+  padding-bottom: 4px;
+  position: relative;
+  border: 2px solid;
+}
+
+.nav-right-img1:hover {
+  scale: 1.1;
+  transition: 1.2s;
+  padding-right: 10px;
+}
+.nav-right-img1:hover .nav-right-img1-pbottom {
+  padding-top: 60px;
+  transition: 1.5s;
+  color: black;
+}
+.nav-right-img1:hover .nav-right-img1-ptop {
+  padding-top: 40px;
+  transition: 1.5s;
+  color: red;
+}
+
+.nav-right-img1-ptop {
+  color: rgb(252, 248, 248);
+  font-size: 16px;
+  font-weight: bold;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  
+
+}
+
+.nav-right-img1-pbottom {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+padding-left: 20px;
+padding-top: 10px;
+  position: absolute;
+
+}
+
+.nav-right-img2 {
+  background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/851850/header.jpg?t=1658451413");
+  width: 297px;
+  height: 189px;
+  padding-bottom: 4px;
+  position: relative;
+  border: 2px solid;
+
+}
+
+.nav-right-img2:hover {
+  scale: 1.1;
+  transition: 1.2s;
+  padding-right: 10px;
+}
+.nav-right-img2:hover .nav-right-img2-pbottom {
+  padding-top: 60px;
+  transition: 1.5s;
+  color: black;
+}
+.nav-right-img2:hover .nav-right-img2-ptop {
+  padding-top: 40px;
+  transition: 1.5s;
+  color: red;
+}
+
+.nav-right-img2-ptop {
+  color: rgb(252, 248, 248);
+  font-size: 16px;
+  font-weight: bold;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  position: absolute;
+  
+
+}
+
+.nav-right-img2-pbottom {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+padding-left: 20px;
+padding-top: 10px;
+  position: absolute;
+
+}
+
+
+/* neck header */
+
+
+
+.neck-header {
+
+}
+
+
+
+.neck-list-hot {
+  color: red;
+  padding: px 0px 0px 20px;
+  font-weight: bold;
+
+}
+.fa {
+ display: flex;
+ padding: 20px 10px 20px 20px;
+}
+
+
+
+/*neck body */
+
+.neck {
+display: flex;
+justify-content:space-around;
+padding-left: 70px;
+padding-right: 70px;
+
+}
+
+.neck-body-1:hover {
+  scale: 1.1;
+  transition: 1s;
+  padding-bottom: 10px;
+}
+
+.neck-body-1:hover .contents-h2 {
+  text-decoration: none;
+  
+}
+.contents-h2:hover {
+  text-decoration: none;
+}
+
+.neck-body { 
+  
+
+
+  
+
+}
+
+.neck-body-1 {
+
+  align-items: center;
+}
+
+.neck-body-img {
+  background-image: url("https://i.truyenvua.xyz/ebook/190x247/anh-hung-ta-khong-lam-lau-roi_1538570886.jpg?gf=hdfgdfg&mobile=2");
+width: 170px;
+height: 220px;
+position: relative;
+align-items: center;
+border: 5px solid rgb(0, 0, 0);
+border-radius: 9px;
+}
+
+.neck-body-time {
+
+  padding-top: 20px;
+  padding-left: 8px;
+  border-radius:2px ;
+}
+
+.p-time { background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  width: 79px;
+  font-size: 14px;
+  position: absolute;
+  border-radius: 20px;
+
+}
+
+.neck-body-contents {
+  text-align: center;
+ 
+
+}
+
+.contents-h2 {
+  font-size: 15px;
+  color: black;
+
+}
+
+.contents-p {
+  font-size: 14px;
+  color: black;
+
+}
+
+
+
+
+
+
+
+.body2-body-main {
+  display: flex;
+  justify-content: space-around ;
+} 
+
+.neck-bodytatle {
+  justify-content: space-around;
+}
+
+
+
+/* footer */
+
+.footer {
+  padding-top: 30px;
+border-top: 5px solid rgb(251, 6, 6);
+background-color: rgb(97, 97, 97);
+
+
+}
+
+
+
+
+
+
+
+
+.footer_right_pa {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.footer_right_pA {
+color: white;
+}
+
+.btn_pfooter {
+  background-color: rgb(56, 55, 55);
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  
+}
