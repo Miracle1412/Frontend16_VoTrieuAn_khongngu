@@ -2,31 +2,24 @@
   box-sizing: border-box;
 }
 
-.body_main_background {}
+.body_main_background {
+}
 
 .header_Img_gameofthrones {
   background-image: url("https://images6.alphacoders.com/914/914207.png");
   width: 100%;
   height: 30%;
 
-
-
   background-size: cover;
-
-
-
 }
 
 .header_Title {
   padding-top: 30px;
-
-
 }
 
 .header_Titleleft {
   display: flex;
 }
-
 
 .header_Titleleft_navtext {
   color: white;
@@ -56,7 +49,6 @@
 .header_img_hover_effect {
   padding: 461px 0 0 0;
   transition: transform 3s;
-
 }
 
 .header_img_hover_effectcenter {
@@ -64,13 +56,10 @@
   justify-content: space-around;
 }
 
-
-
 .header_img_hover_effect:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
   filter: drop-shadow(0px 0px 8px rgb(252, 249, 249));
-  margin-bottom: 20px;
-
+  margin-bottom: ;
 }
 
 /* .fa-star {
@@ -82,7 +71,6 @@
 
 .navbar_menu {
   background-color: rgb(65, 64, 62);
-
 }
 
 .navbar_menu_icon_h1 {
@@ -94,7 +82,6 @@
   font-size: 40px;
   color: red;
 }
-
 
 /* li xuong body */
 
@@ -149,7 +136,6 @@
 
 .fa-eye {
   color: white;
-
 }
 
 .nav {
@@ -159,12 +145,12 @@
   justify-content: center;
   background-color: black;
   border-radius: 5px;
-
 }
 
 /* nav left */
 
-.nav-left {}
+.nav-left {
+}
 
 .nav-left-img {
   padding-bottom: 5px;
@@ -177,8 +163,6 @@
   padding-bottom: 4px;
   position: relative;
   border: 2px solid;
-  
-
 }
 .nav-left-img1:hover {
   scale: 1.1;
@@ -188,7 +172,7 @@
 .nav-left-img1:hover .nav-left-img1-pbottom {
   padding-top: 60px;
   transition: 1.5s;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .nav-left-img1:hover .nav-left-img1-ptop {
   padding-top: 40px;
@@ -204,30 +188,24 @@
   padding-left: 20px;
   padding-top: 20px;
   position: absolute;
-  
-
 }
 
 .nav-left-img1-pbottom {
   color: white;
   font-weight: bold;
   font-size: 14px;
-padding-left: 20px;
-padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
   position: absolute;
-
 }
 
 .nav-left-img2 {
-  background-image: url("https://anhdep123.com/wp-content/uploads/2020/05/%E1%BA%A3nh-pokemon-cute.jpg");
+  background-image: url("https://i.truyenvua.xyz/slider/290x191/slider_1587986979.jpg?gf=hdfgdfg&mobile=2");
   width: 297px;
   height: 189px;
   padding-bottom: 4px;
   position: relative;
   border: 2px solid;
-
-
-
 }
 
 .nav-left-img2:hover {
@@ -236,12 +214,11 @@ padding-top: 10px;
   padding-right: 10px;
 }
 .nav-left-img2:hover .nav-left-img2-pbottom {
-  padding-top: 60px;
+  padding-top: 165px;
   transition: 1.5s;
-  color: black;
 }
 .nav-left-img2:hover .nav-left-img2-ptop {
-  padding-top: 40px;
+  padding-top: 146px;
   transition: 1.5s;
   color: red;
 }
@@ -254,26 +231,16 @@ padding-top: 10px;
   padding-left: 20px;
   padding-top: 20px;
   position: absolute;
- 
-  
-
 }
 
 .nav-left-img2-pbottom {
   color: white;
   font-weight: bold;
   font-size: 14px;
-padding-left: 20px;
-padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
   position: absolute;
-
 }
-
-
-
-
-
-
 
 /* nav center */
 
@@ -288,20 +255,14 @@ padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   opacity: 80%;
-  box-shadow: rgb(242, 240, 237)
-
-
+  box-shadow: rgb(242, 240, 237);
 }
 
 .nav-center-img:hover .nav-center-img-ptop {
   margin-top: 170px;
   scale: 1.5;
   transition: 2s;
-  
-  
-
 }
-
 
 .nav-center-img {
   background-image: url("https://i.truyenvua.xyz/slider/583x386/slider_1559211185.jpg?gf=hdfgdfg&mobile=2");
@@ -311,13 +272,10 @@ padding-top: 10px;
   border: 2px solid;
 }
 
-
-
 .nav-center-img-ptop {
   background-color: black;
   border-radius: 20px;
   text-align: center;
- 
 }
 
 .nav-center-hhh {
@@ -328,58 +286,50 @@ padding-top: 10px;
   border-radius: 20px;
   left: 30px;
   top: 20px;
-
 }
-
 
 .nav-center-bottom {
   position: absolute;
   color: white;
   bottom: 2px;
-
 }
-
-
-
 .nav-center-img-pbottom1,
 .nav-center-img-pbottom2 {
   color: white;
   font-size: 14px;
   font-weight: bold;
   padding-left: 20px;
-
-
 }
 
 .nav-center-img:hover .nav-center-img-pbottom1 {
-  padding-bottom: 135px;
+  padding-bottom: 25px;
   font-size: 50px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   transition: 1s;
-
-  
-
+  opacity: none;
 }
 .nav-center-img:hover .nav-center-img-pbottom2 {
-padding-bottom: 110px;
-transition: 2s;
-
+  padding-bottom: 110px;
+  transition: 2s;
+  font-weight: bold;
+  opacity: none;
 }
-
 
 .nav-center-img:hover {
   scale: (1.5);
-
-} 
-
-
-
+  opacity: 80%;
+}
+.nav-center-img:hover .nav {
+  scale: 1.5;
+}
 
 /* nav right */
-.nav-right {}
+.nav-right {
+}
 
-.nav-right-img {}
+.nav-right-img {
+}
 
 .nav-right-img1 {
   background-image: url("https://i.truyenvua.xyz/slider/290x191/slider_1559213484.jpg?gf=hdfgdfg&mobile=2");
@@ -398,12 +348,14 @@ transition: 2s;
 .nav-right-img1:hover .nav-right-img1-pbottom {
   padding-top: 60px;
   transition: 1.5s;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .nav-right-img1:hover .nav-right-img1-ptop {
   padding-top: 40px;
   transition: 1.5s;
-  color: red;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .nav-right-img1-ptop {
@@ -414,18 +366,15 @@ transition: 2s;
   padding-left: 20px;
   padding-top: 20px;
   position: absolute;
-  
-
 }
 
 .nav-right-img1-pbottom {
   color: white;
   font-weight: bold;
   font-size: 14px;
-padding-left: 20px;
-padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
   position: absolute;
-
 }
 
 .nav-right-img2 {
@@ -435,7 +384,6 @@ padding-top: 10px;
   padding-bottom: 4px;
   position: relative;
   border: 2px solid;
-
 }
 
 .nav-right-img2:hover {
@@ -446,12 +394,12 @@ padding-top: 10px;
 .nav-right-img2:hover .nav-right-img2-pbottom {
   padding-top: 60px;
   transition: 1.5s;
-  color: black;
+  color: rgb(225, 0, 255);
 }
 .nav-right-img2:hover .nav-right-img2-ptop {
   padding-top: 40px;
   transition: 1.5s;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 .nav-right-img2-ptop {
@@ -462,166 +410,136 @@ padding-top: 10px;
   padding-left: 20px;
   padding-top: 20px;
   position: absolute;
-  
-
 }
 
 .nav-right-img2-pbottom {
   color: white;
   font-weight: bold;
   font-size: 14px;
-padding-left: 20px;
-padding-top: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
   position: absolute;
-
 }
-
 
 /* neck header */
 
-
-
 .neck-header {
-
 }
-
-
 
 .neck-list-hot {
   color: red;
   padding: px 0px 0px 20px;
   font-weight: bold;
-
 }
 .fa {
- display: flex;
- padding: 20px 10px 20px 20px;
+  display: flex;
+  padding: 20px 10px 20px 20px;
 }
-
-
 
 /*neck body */
 
 .neck {
-display: flex;
-justify-content:space-around;
-padding-left: 70px;
-padding-right: 70px;
-
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 70px;
+padding-right: 70px; */
+  gap: 0 15px;
 }
 
 .neck-body-1:hover {
   scale: 1.1;
   transition: 1s;
-  padding-bottom: 10px;
+  padding-bottom: px;
 }
 
 .neck-body-1:hover .contents-h2 {
   text-decoration: none;
-  
 }
 .contents-h2:hover {
   text-decoration: none;
 }
 
-.neck-body { 
-  
-
-
-  
-
+.neck-body {
 }
 
 .neck-body-1 {
-
   align-items: center;
 }
 
 .neck-body-img {
-  background-image: url("https://i.truyenvua.xyz/ebook/190x247/anh-hung-ta-khong-lam-lau-roi_1538570886.jpg?gf=hdfgdfg&mobile=2");
-width: 170px;
-height: 220px;
-position: relative;
-align-items: center;
-border: 5px solid rgb(0, 0, 0);
-border-radius: 9px;
+  background-image: url("https://i.truyenvua.xyz/ebook/190x247/bao-quan-ai-nhan_1651312339.jpg?gf=hdfgdfg&mobile=2");
+  width: 170px;
+  height: 220px;
+  position: relative;
+  align-items: center;
+  border: 5px solid rgb(255, 0, 0);
+  border-radius: 9px;
 }
 
 .neck-body-time {
-
   padding-top: 20px;
   padding-left: 8px;
-  border-radius:2px ;
+  border-radius: 2px;
 }
 
-.p-time { background-color: rgb(255, 0, 0);
+.p-time {
+  background-color: rgb(255, 0, 0);
   color: rgb(0, 0, 0);
   width: 79px;
   font-size: 14px;
   position: absolute;
   border-radius: 20px;
-
 }
 
 .neck-body-contents {
   text-align: center;
- 
-
+}
+.neck-body-contents:hover .contents-h2 .contents-p {
+  text-decoration: none;
+}
+.neck-body-.neck-body-1 {
+  text-decoration: none;
 }
 
 .contents-h2 {
   font-size: 15px;
-  color: black;
-
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .contents-p {
   font-size: 14px;
-  color: black;
-
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
 }
-
-
-
-
-
-
 
 .body2-body-main {
   display: flex;
-  justify-content: space-around ;
-} 
-
-.neck-bodytatle {
   justify-content: space-around;
 }
 
+.neck-bodytatle {
+  justify-content: space-around;
 
+  width: 100%;
+}
 
 /* footer */
 
 .footer {
   padding-top: 30px;
-border-top: 5px solid rgb(251, 6, 6);
-background-color: rgb(97, 97, 97);
-
-
+  border-top: 5px solid rgb(251, 6, 6);
+  background-color: rgb(97, 97, 97);
 }
-
-
-
-
-
-
-
 
 .footer_right_pa {
   display: flex;
   justify-content: space-around;
-  
 }
 .footer_right_pA {
-color: white;
+  color: white;
 }
 
 .btn_pfooter {
@@ -629,5 +547,19 @@ color: white;
   padding: 10px 20px;
   color: white;
   text-align: center;
-  
+}
+
+.btn_pfooter:hover {
+  text-decoration: none;
+}
+.footer_right_pa:hover {
+  text-decoration: none;
+}
+
+.bnc {
+  background-color: rgb(0, 0, 0);
+}
+
+body {
+  max-width: 100%;
 }
